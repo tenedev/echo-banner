@@ -28,13 +28,13 @@ importers:
         version: 25.3.3
       '@vitest/coverage-v8':
         specifier: 4.0.18
-        version: 4.0.18(vitest@4.0.18(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.8.2))
+        version: 4.0.18(vitest@4.0.18(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.9.0))
       husky:
         specifier: ^9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: ^16.3.2
-        version: 16.3.2
+        specifier: ^17.0.0
+        version: 17.0.8
       prettier:
         specifier: ^3.8.1
         version: 3.8.1
@@ -49,7 +49,7 @@ importers:
         version: 6.0.2
       vitest:
         specifier: ^4.0.18
-        version: 4.0.18(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.8.2)
+        version: 4.0.18(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.9.0)
 
 packages:
   '@babel/generator@8.0.0-rc.4':
@@ -1567,13 +1567,6 @@ packages:
         integrity: sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==,
       }
 
-  braces@3.0.3:
-    resolution:
-      {
-        integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==,
-      }
-    engines: { node: '>=8' }
-
   buffer-crc32@1.0.0:
     resolution:
       {
@@ -1626,12 +1619,6 @@ packages:
     resolution:
       {
         integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==,
-      }
-
-  colorette@2.0.20:
-    resolution:
-      {
-        integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==,
       }
 
   commander@14.0.3:
@@ -1832,13 +1819,6 @@ packages:
     engines: { node: '>= 17.0.0' }
     hasBin: true
 
-  fill-range@7.1.1:
-    resolution:
-      {
-        integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==,
-      }
-    engines: { node: '>=8' }
-
   foreground-child@3.3.1:
     resolution:
       {
@@ -1948,13 +1928,6 @@ packages:
       }
     engines: { node: '>=18' }
 
-  is-number@7.0.0:
-    resolution:
-      {
-        integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==,
-      }
-    engines: { node: '>=0.12.0' }
-
   is-plain-obj@4.1.0:
     resolution:
       {
@@ -2054,20 +2027,20 @@ packages:
         integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==,
       }
 
-  lint-staged@16.3.2:
+  lint-staged@17.0.8:
     resolution:
       {
-        integrity: sha512-xKqhC2AeXLwiAHXguxBjuChoTTWFC6Pees0SHPwOpwlvI3BH7ZADFPddAdN3pgo3aiKgPUx/bxE78JfUnxQnlg==,
+        integrity: sha512-B2P/d+jVW0UXOQ0MVMLrB/9ydA1P+zz6jYfdrbbEd9ur3S2rcbduFWKiUCC02Sm5hbC8nrm7y24WuYMG54HfxA==,
       }
-    engines: { node: '>=20.17' }
+    engines: { node: '>=22.22.1' }
     hasBin: true
 
-  listr2@9.0.5:
+  listr2@10.2.1:
     resolution:
       {
-        integrity: sha512-ME4Fb83LgEgwNw96RKNvKV4VTLuXfoKudAmm2lP8Kk87KaMK0/Xrx/aAkMWmT8mDb+3MlFDspfbCs7adjRxA2g==,
+        integrity: sha512-7I5knELsJKTUjXG+A6BkKAiGkW1i25fNa/xlUl9hFtk15WbE9jndA89xu5FzQKrY5llajE1hfZZFMILXkDHk/Q==,
       }
-    engines: { node: '>=20.0.0' }
+    engines: { node: '>=22.13.0' }
 
   lodash@4.17.23:
     resolution:
@@ -2125,13 +2098,6 @@ packages:
       {
         integrity: sha512-Lf+9+2r+Tdp5wXDXC4PcIBjTDtq4UKjCPMQhKIuzpJNW0b96kVqSwW0bT7FhRSfmAiFYgP+SCRvdrDozfh0U5w==,
       }
-
-  micromatch@4.0.8:
-    resolution:
-      {
-        integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==,
-      }
-    engines: { node: '>=8.6' }
 
   mimic-function@5.0.1:
     resolution:
@@ -2220,13 +2186,6 @@ packages:
       {
         integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==,
       }
-
-  picomatch@2.3.1:
-    resolution:
-      {
-        integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==,
-      }
-    engines: { node: '>=8.6' }
 
   picomatch@4.0.4:
     resolution:
@@ -2577,10 +2536,10 @@ packages:
         integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==,
       }
 
-  tinyexec@1.1.2:
+  tinyexec@1.2.4:
     resolution:
       {
-        integrity: sha512-dAqSqE/RabpBKI8+h26GfLq6Vb3JVXs30XYQjdMjaj/c2tS8IYYMbIzP599KtRj7c57/wYApb3QjgRgXmrCukA==,
+        integrity: sha512-SHf/r48b7vOrjve9PxJo3MN5v5yuyjHvdUcrQffT3WXMUfnGmHDVbC4k3sHJaJTgZCwpUplIaAo5ANtMyp3YHg==,
       }
     engines: { node: '>=18' }
 
@@ -2597,13 +2556,6 @@ packages:
         integrity: sha512-PSkbLUoxOFRzJYjjxHJt9xro7D+iilgMX/C9lawzVuYiIdcihh9DXmVibBe8lmcFrRi/VzlPjBxbN7rH24q8/Q==,
       }
     engines: { node: '>=14.0.0' }
-
-  to-regex-range@5.0.1:
-    resolution:
-      {
-        integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==,
-      }
-    engines: { node: '>=8.0' }
 
   tree-kill@1.2.2:
     resolution:
@@ -2813,6 +2765,13 @@ packages:
     engines: { node: '>=8' }
     hasBin: true
 
+  wrap-ansi@10.0.0:
+    resolution:
+      {
+        integrity: sha512-SGcvg80f0wUy2/fXES19feHMz8E0JoXv2uNgHOu4Dgi2OrCy1lqwFYEJz1BLbDI0exjPMe/ZdzZ/YpGECBG/aQ==,
+      }
+    engines: { node: '>=20' }
+
   wrap-ansi@7.0.0:
     resolution:
       {
@@ -2834,10 +2793,10 @@ packages:
       }
     engines: { node: '>=18' }
 
-  yaml@2.8.2:
+  yaml@2.9.0:
     resolution:
       {
-        integrity: sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==,
+        integrity: sha512-2AvhNX3mb8zd6Zy7INTtSpl1F15HW6Wnqj0srWlkKLcpYl/gMIMJiyuGq2KeI2YFxUPjdlB+3Lc10seMLtL4cA==,
       }
     engines: { node: '>= 14.6' }
     hasBin: true
@@ -3450,7 +3409,7 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@vitest/coverage-v8@4.0.18(vitest@4.0.18(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.8.2))':
+  '@vitest/coverage-v8@4.0.18(vitest@4.0.18(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.9.0))':
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
       '@vitest/utils': 4.0.18
@@ -3462,7 +3421,7 @@ snapshots:
       obug: 2.1.1
       std-env: 3.10.0
       tinyrainbow: 3.0.3
-      vitest: 4.0.18(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.8.2)
+      vitest: 4.0.18(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.9.0)
 
   '@vitest/expect@4.0.18':
     dependencies:
@@ -3473,13 +3432,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@4.0.18(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.8.2))':
+  '@vitest/mocker@4.0.18(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.9.0))':
     dependencies:
       '@vitest/spy': 4.0.18
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.3.1(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.8.2)
+      vite: 7.3.1(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.9.0)
 
   '@vitest/pretty-format@4.0.18':
     dependencies:
@@ -3610,10 +3569,6 @@ snapshots:
     dependencies:
       balanced-match: 1.0.2
 
-  braces@3.0.3:
-    dependencies:
-      fill-range: 7.1.1
-
   buffer-crc32@1.0.0: {}
 
   buffer@6.0.3:
@@ -3639,8 +3594,6 @@ snapshots:
       color-name: 1.1.4
 
   color-name@1.1.4: {}
-
-  colorette@2.0.20: {}
 
   commander@14.0.3: {}
 
@@ -3748,10 +3701,6 @@ snapshots:
     dependencies:
       commander: 14.0.3
 
-  fill-range@7.1.1:
-    dependencies:
-      to-regex-range: 5.0.1
-
   foreground-child@3.3.1:
     dependencies:
       cross-spawn: 7.0.6
@@ -3798,8 +3747,6 @@ snapshots:
   is-fullwidth-code-point@5.1.0:
     dependencies:
       get-east-asian-width: 1.5.0
-
-  is-number@7.0.0: {}
 
   is-plain-obj@4.1.0: {}
 
@@ -3859,23 +3806,22 @@ snapshots:
     dependencies:
       uc.micro: 2.1.0
 
-  lint-staged@16.3.2:
+  lint-staged@17.0.8:
     dependencies:
-      commander: 14.0.3
-      listr2: 9.0.5
-      micromatch: 4.0.8
+      listr2: 10.2.1
+      picomatch: 4.0.4
       string-argv: 0.3.2
-      tinyexec: 1.1.2
-      yaml: 2.8.2
+      tinyexec: 1.2.4
+    optionalDependencies:
+      yaml: 2.9.0
 
-  listr2@9.0.5:
+  listr2@10.2.1:
     dependencies:
       cli-truncate: 5.2.0
-      colorette: 2.0.20
       eventemitter3: 5.0.4
       log-update: 6.1.0
       rfdc: 1.4.1
-      wrap-ansi: 9.0.2
+      wrap-ansi: 10.0.0
 
   lodash@4.17.23: {}
 
@@ -3916,11 +3862,6 @@ snapshots:
 
   mdurl@2.0.0: {}
 
-  micromatch@4.0.8:
-    dependencies:
-      braces: 3.0.3
-      picomatch: 2.3.1
-
   mimic-function@5.0.1: {}
 
   minimatch@5.1.9:
@@ -3955,8 +3896,6 @@ snapshots:
   pathe@2.0.3: {}
 
   picocolors@1.1.1: {}
-
-  picomatch@2.3.1: {}
 
   picomatch@4.0.4: {}
 
@@ -4237,7 +4176,7 @@ snapshots:
 
   tinybench@2.9.0: {}
 
-  tinyexec@1.1.2: {}
+  tinyexec@1.2.4: {}
 
   tinyglobby@0.2.16:
     dependencies:
@@ -4245,10 +4184,6 @@ snapshots:
       picomatch: 4.0.4
 
   tinyrainbow@3.0.3: {}
-
-  to-regex-range@5.0.1:
-    dependencies:
-      is-number: 7.0.0
 
   tree-kill@1.2.2: {}
 
@@ -4265,7 +4200,7 @@ snapshots:
       rolldown: 1.0.0
       rolldown-plugin-dts: 0.25.0(rolldown@1.0.0)(typescript@6.0.2)
       semver: 7.7.4
-      tinyexec: 1.1.2
+      tinyexec: 1.2.4
       tinyglobby: 0.2.16
       tree-kill: 1.2.2
       unconfig-core: 7.5.0
@@ -4288,7 +4223,7 @@ snapshots:
       markdown-it: 14.1.1
       minimatch: 9.0.9
       typescript: 6.0.2
-      yaml: 2.8.2
+      yaml: 2.9.0
 
   typescript@6.0.2: {}
 
@@ -4321,7 +4256,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.8.2):
+  vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.9.0):
     dependencies:
       esbuild: 0.27.3
       fdir: 6.5.0(picomatch@4.0.4)
@@ -4333,12 +4268,12 @@ snapshots:
       '@types/node': 25.3.3
       fsevents: 2.3.3
       jiti: 2.6.1
-      yaml: 2.8.2
+      yaml: 2.9.0
 
-  vitest@4.0.18(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.8.2):
+  vitest@4.0.18(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.9.0):
     dependencies:
       '@vitest/expect': 4.0.18
-      '@vitest/mocker': 4.0.18(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.8.2))
+      '@vitest/mocker': 4.0.18(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.9.0))
       '@vitest/pretty-format': 4.0.18
       '@vitest/runner': 4.0.18
       '@vitest/snapshot': 4.0.18
@@ -4352,10 +4287,10 @@ snapshots:
       picomatch: 4.0.4
       std-env: 3.10.0
       tinybench: 2.9.0
-      tinyexec: 1.1.2
+      tinyexec: 1.2.4
       tinyglobby: 0.2.16
       tinyrainbow: 3.0.3
-      vite: 7.3.1(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.8.2)
+      vite: 7.3.1(@types/node@25.3.3)(jiti@2.6.1)(yaml@2.9.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 25.3.3
@@ -4381,6 +4316,12 @@ snapshots:
       siginfo: 2.0.0
       stackback: 0.0.2
 
+  wrap-ansi@10.0.0:
+    dependencies:
+      ansi-styles: 6.2.3
+      string-width: 8.2.0
+      strip-ansi: 7.2.0
+
   wrap-ansi@7.0.0:
     dependencies:
       ansi-styles: 4.3.0
@@ -4399,7 +4340,7 @@ snapshots:
       string-width: 7.2.0
       strip-ansi: 7.2.0
 
-  yaml@2.8.2: {}
+  yaml@2.9.0: {}
 
   zip-stream@6.0.1:
     dependencies:
