@@ -59,7 +59,7 @@
   "devDependencies": {
     "@biomejs/biome": "^2.5.6",
     "@tenedev/prettier-config": "^1.2.0",
-    "@types/node": "^25.3.3",
+    "@types/node": "^25.9.5",
     "@vitest/coverage-v8": "4.1.10",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.0",
