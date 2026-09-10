@@ -8,8 +8,8 @@ importers:
   .:
     dependencies:
       figlet:
-        specifier: ^1.10.0
-        version: 1.10.0
+        specifier: ^1.11.4
+        version: 1.11.4
       js-utils-kit:
         specifier: ^5.1.0
         version: 5.1.0
@@ -1964,10 +1964,10 @@ packages:
       picomatch:
         optional: true
 
-  figlet@1.10.0:
+  figlet@1.11.4:
     resolution:
       {
-        integrity: sha512-aktIwEZZ6Gp9AWdMXW4YCi0J2Ahuxo67fNJRUIWD81w8pQ0t9TS8FFpbl27ChlTLF06VkwjDesZSzEVzN75rzA==,
+        integrity: sha512-ZU41480OncL+NVLQrT0GVnbO0COL24sLSrzksioDgunmdJNYEUxhJJZ4Y3x1csN8XXqN5OcCZTLG8lKdquNyfQ==,
       }
     engines: { node: '>= 17.0.0' }
     hasBin: true
@@ -3922,7 +3922,7 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.5
 
-  figlet@1.10.0:
+  figlet@1.11.4:
     dependencies:
       commander: 14.0.3
 
