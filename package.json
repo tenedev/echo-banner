@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "figlet": "^1.10.0",
-    "js-utils-kit": "^5.1.0",
+    "js-utils-kit": "^5.2.1",
     "use-colors": "^0.1.0"
   },
   "devDependencies": {
